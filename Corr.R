@@ -4,7 +4,8 @@
 #paste0 function
 paste0 <- function( ..., sep="" ) paste( ..., sep = sep )
 
-#possible methods:
+#possible methods are:
+#Pearson, Spearman, or Kendall correlation
 #poss_method=c("pearson","spearman","kendall")
 
 #default argument
@@ -15,11 +16,11 @@ args<-commandArgs(TRUE)
 
 #help
 help <- function(){
-    cat("\nCorr.R : Calculate correlation of a tab-delimited input using pearson, spearman or kendall method\n")
+    cat("\nCorr.R : Calculate correlation of a tab-delimited input using Pearson, Spearman or Kendall method\n")
     cat("\nUsage: Corr.R -i -\n")
     cat("-i : input file or stdin (-)\n")
     cat(paste0("-m : method (default: ",test_method,")\n\n"))
-    cat("CAUTION : Kendall can be very slow for really large dataset (>1,000)")
+    cat("CAUTION : Kendall can be VERY slow for really large dataset (>1,000)")
     cat("\n\n")
     q()
 }
