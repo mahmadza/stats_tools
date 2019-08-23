@@ -1,15 +1,15 @@
 #!/usr/local/bin/Rscript --vanilla
 
 #paste0 function
-paste0 <- function( ..., sep="" ) paste( ..., sep = sep )
+paste0=function( ..., sep="" ) paste( ..., sep = sep )
 
 #possible multiple-testing methods:
 poss_methods=c("holm", "hochberg", "hommel","bonferroni","BH","BY","fdr","none")
 #Default
-corr_method<-"bonferroni"
+corr_method="bonferroni"
 
 #Retrieve arguments
-args<-commandArgs(TRUE)
+args=commandArgs(TRUE)
 
 #help
 help <- function(){
