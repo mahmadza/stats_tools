@@ -54,22 +54,6 @@ if(exists("i")){
 result=vector()
 result=cor(d[,'V1'],d[,'V2'],method=test_method)
 
-#Return result
+#return result
 cat(format(result),"\n")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
