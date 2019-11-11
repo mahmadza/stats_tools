@@ -1,4 +1,4 @@
-#!/biosw/debian7-x86_64/R/3.0.2/bin/Rscript  --vanilla
+#!/usr/local/bin/Rscript  --vanilla
 
 ## Default arguments
 x=1 # x column

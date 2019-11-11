@@ -1,4 +1,4 @@
-#!/biosw/debian7-x86_64/R/2.15.3/bin/Rscript --vanilla
+#!/usr/local/bin/Rscript --vanilla
 
 
 #paste0 function
@@ -56,4 +56,3 @@ result=cor(d[,'V1'],d[,'V2'],method=test_method)
 
 #return result
 cat(format(result),"\n")
-
