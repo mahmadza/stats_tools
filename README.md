@@ -1,2 +1,2 @@
 # stats_tools
-A collection of R statistical tool wrappers, for use in command line
+A collection of R statistical tool wrappers for command line use.
